@@ -17,7 +17,7 @@ $(".play").click(function () {
   let result6 = "Paper sliced by scissors. You lose!";
   let result7 = "Scissors slice paper. You win!";
   let result8 = "Scissors crushed by rock. You lose!";
-  let result9 = "Scissors v. scissors. It's a tie!";
+  let result99 = "Scissors v. scissors. It's a tie!";
 
   //Computer Choices
 
@@ -51,7 +51,7 @@ $(".play").click(function () {
   } else if (userChoice === "scissors" && compChoice === "rock") {
     $(".resultMessage").text(result8);
   } else if (userChoice === "scissors" && compChoice === "scissors") {
-    $(".resultMessage").text(result9);
+    $(".resultMessage").text(result99);
   }
 
 });
