@@ -1,23 +1,37 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Link font style here -->
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Barlow"
+    />
+
+    <style>
+      body {
+        font-family: "Barlow", serif;
+      }
+    </style>
+
     <title>RPS Game</title>
     <!-- Link CSS here -->
     <link type="text/css" rel="stylesheet" href="css/style.css" />
-    
+
     <!-- Link JQuery here -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    
   </head>
 
   <body>
     <div class="row">
       <h1>Rock Paper Scissors</h1>
-      <img src="http://www.coltnews.com/wp-content/uploads/2016/04/RPS.png" />
+      <img
+        src="https://projects-static.raspberrypi.org/projects/rock-paper-scissors/53e3d7650eb63c856515c59aa623eac4497c067f/en/images/rock-paper-scissors.png"
+      />
 
       <h3>Please Submit Your Choice Below</h3>
       <div>
-        <input class="input">
+        <input class="input" />
         <button class="play">play!</button>
       </div>
 
@@ -33,14 +47,13 @@
       </div>
       <div class="result">
         <h4>
-      Result
+          Result
         </h4>
         <p class="resultMessage"></p>
       </div>
     </div>
-    
   </body>
 </html>
 
 <!-- Link script.js here -->
-    <script src="js/script.js"></script>
+<script src="js/script.js"></script>
