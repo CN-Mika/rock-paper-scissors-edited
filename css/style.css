@@ -3,5 +3,9 @@
 }
 .choices {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.userChoice {
+  font-style: italic;
 }
